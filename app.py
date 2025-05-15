@@ -24,7 +24,7 @@ aba1,aba2,aba3 = st.tabs(['Dataset','Receita','Vendedores'])
 
 with aba1:
     st.dataframe(df)
-
+#
 with aba2:
     col1, col2 = st.columns(2)
     with col1:

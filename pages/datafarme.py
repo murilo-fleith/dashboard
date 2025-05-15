@@ -67,7 +67,7 @@ query = '''
     `Tipo de pagamento` in @tipo_pagamento
 '''
 #quando nao for coluna numerica passar entre `Crase`
-
+#
 filtro_dados = df.query(query)
 filtro_dados = filtro_dados[colunas]
 st.markdown(f'A tabela possui :blue[{filtro_dados.shape[0]}] linhas e :blue[{filtro_dados.shape[1]}] colunas') #falores com filtros aplicados

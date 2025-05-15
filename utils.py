@@ -31,7 +31,7 @@ def_rec_cat=df.groupby(['Categoria do Produto'])[['Preço']].sum().sort_values('
 
 #receita por vendedor
 df_vendedor = pd.DataFrame(df.groupby('Vendedor')['Preço'].agg(['sum', 'count']))
-
+#
 #funcao para converter arquivo CSV 
 @st.cache_data
 def convert_csv(df):
