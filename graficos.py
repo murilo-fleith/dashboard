@@ -36,7 +36,7 @@ grafico_rec_estado = px.bar(
     #color_discrete_sequence= ['#636EFA'],
     #text = df_rec_estado['Preço'].apply(lambda x: f'R$ {x:,.2f}'),
 )
-
+#
 grafico_rec_cat = px.bar(
     def_rec_cat.head(7),
     text_auto=True,
