@@ -2,6 +2,7 @@ import streamlit as st
 from dataset import df
 from utils import format_number, df_rec_estado, convert_csv,mensagem_sucesso
 
+
 # Configuração do título da página
 st.set_page_config(
     page_title="Dashboard de  Vendas", #altera o título da aba do navegador

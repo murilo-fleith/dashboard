@@ -3,9 +3,9 @@ import pandas as pd
 import locale
 import streamlit as st
 import time
+from babel.dates import format_date
 
-
-locale.setlocale(locale.LC_TIME, 'pt_BR.UTF-8')
+#locale.setlocale(locale.LC_TIME, 'pt_BR.UTF-8')
 
 def format_number(value, prefix=''):
     for unit in ['','Mil']:
